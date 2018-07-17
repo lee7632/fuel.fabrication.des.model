@@ -1,0 +1,3961 @@
+Fuel fabrication 
+
+PREPROCESSING
+
+Initial inventory verification of storage buffer
+Physical inventory: 10000.00123796734
+
+END PREPROCESSING 
+
+
+Start facility operation
+Starting campaign: 1 at time:  0.0000  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 0.4166 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0223 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 0.9581 (d) 
+True quantity 19.9100 (kg) 
+Measured quantity 19.7500 (kg) 
+
+
+
+Inspecting key_measurement_point_2: 
+Threshold: 0.1677 
+Measured quantity 19.7500 
+
+MISSING SNM DETECTED in key_measurement_point_2!  A BATCH WILL GET MOVED IMMEDIATELY TO RECYCLE STORAGE!
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Starting campaign: 2 at time:  1.0622  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 1.1455 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0153 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 1.6870 (d) 
+True quantity 19.9005 (kg) 
+Measured quantity 19.7334 (kg) 
+
+
+
+Inspecting key_measurement_point_2: 
+Threshold: 0.1677 
+Measured quantity 19.7334 
+
+MISSING SNM DETECTED in key_measurement_point_2!  A BATCH WILL GET MOVED IMMEDIATELY TO RECYCLE STORAGE!
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Starting campaign: 3 at time:  1.7911  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 1.8744 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0066 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 2.4159 (d) 
+True quantity 19.7270 (kg) 
+Measured quantity 19.7675 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+3 cycle completed
+
+
+Starting campaign: 4 at time:  2.6867  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 2.7700 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9771 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  True 
+
+
+Cleaning the material
+
+Edge transition: 
+Moving total from melter to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 3.2490 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0058 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving total from key_measurement_point_3 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Repairing melter
+
+Edge transition: 
+Moving recycled batch from recycle_storage to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 3.5614 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9990 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_3 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 4.1029 (d) 
+True quantity 19.8394 (kg) 
+Measured quantity 19.7381 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+4 cycle completed
+
+
+Starting campaign: 5 at time:  4.3737  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 4.4570 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9998 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 4.9985 (d) 
+True quantity 19.5646 (kg) 
+Measured quantity 19.7520 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+5 cycle completed
+
+
+Starting campaign: 6 at time:  5.2692  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 5.3525 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0051 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 5.8940 (d) 
+True quantity 19.6964 (kg) 
+Measured quantity 19.7295 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+6 cycle completed
+
+
+Starting campaign: 7 at time:  6.1648  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 6.2481 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0057 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 6.7896 (d) 
+True quantity 19.8295 (kg) 
+Measured quantity 19.7594 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+7 cycle completed
+
+
+Starting campaign: 8 at time:  7.0604  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 7.1437 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0278 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 7.6852 (d) 
+True quantity 19.6746 (kg) 
+Measured quantity 19.7329 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+8 cycle completed
+
+
+Starting campaign: 9 at time:  7.9559  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 8.0392 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0079 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 8.5807 (d) 
+True quantity 19.7337 (kg) 
+Measured quantity 19.7599 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+9 cycle completed
+
+
+Starting campaign: 10 at time:  8.8515  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 8.9348 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9913 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 9.4763 (d) 
+True quantity 19.7580 (kg) 
+Measured quantity 19.7523 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+10 cycle completed
+
+
+Starting campaign: 11 at time:  9.7471  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 9.8304 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9830 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  True 
+
+
+Cleaning the material
+
+Edge transition: 
+Moving total from melter to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 10.3094 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0035 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving total from key_measurement_point_3 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Repairing melter
+
+Edge transition: 
+Moving recycled batch from recycle_storage to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 10.6218 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9866 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_3 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 11.1633 (d) 
+True quantity 19.4805 (kg) 
+Measured quantity 19.7490 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+11 cycle completed
+
+
+Starting campaign: 12 at time:  11.4340  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 11.5173 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9999 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 12.0588 (d) 
+True quantity 19.6680 (kg) 
+Measured quantity 19.7809 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+12 cycle completed
+
+
+Starting campaign: 13 at time:  12.3296  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 12.4129 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0167 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 12.9544 (d) 
+True quantity 19.9701 (kg) 
+Measured quantity 19.7411 (kg) 
+
+
+
+Inspecting key_measurement_point_2: 
+Threshold: 0.1677 
+Measured quantity 19.7411 
+
+MISSING SNM DETECTED in key_measurement_point_2!  A BATCH WILL GET MOVED IMMEDIATELY TO RECYCLE STORAGE!
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Starting campaign: 14 at time:  13.0585  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 13.1418 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0249 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 13.6833 (d) 
+True quantity 19.7818 (kg) 
+Measured quantity 19.7565 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+14 cycle completed
+
+
+Starting campaign: 15 at time:  13.9541  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 14.0374 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0196 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 14.5789 (d) 
+True quantity 19.8356 (kg) 
+Measured quantity 19.7533 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+15 cycle completed
+
+
+Starting campaign: 16 at time:  14.8496  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 14.9329 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0059 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 15.4744 (d) 
+True quantity 19.8424 (kg) 
+Measured quantity 19.7595 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+16 cycle completed
+
+
+Starting campaign: 17 at time:  15.7452  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 15.8285 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9876 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 16.3700 (d) 
+True quantity 19.6748 (kg) 
+Measured quantity 19.7554 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+17 cycle completed
+
+
+Starting campaign: 18 at time:  16.6408  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 16.7241 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0070 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 17.2656 (d) 
+True quantity 19.7232 (kg) 
+Measured quantity 19.7697 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+18 cycle completed
+
+
+Starting campaign: 19 at time:  17.5363  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 17.6196 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9751 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 18.1611 (d) 
+True quantity 19.8188 (kg) 
+Measured quantity 19.7515 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+19 cycle completed
+
+
+Starting campaign: 20 at time:  18.4319  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 18.5152 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9876 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 19.0567 (d) 
+True quantity 19.7788 (kg) 
+Measured quantity 19.7470 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+20 cycle completed
+
+
+Starting campaign: 21 at time:  19.3275  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 19.4108 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0033 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 19.9523 (d) 
+True quantity 19.8935 (kg) 
+Measured quantity 19.7533 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+21 cycle completed
+
+
+Starting campaign: 22 at time:  20.2230  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 20.3063 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0021 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 20.8478 (d) 
+True quantity 19.8035 (kg) 
+Measured quantity 19.7349 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+22 cycle completed
+
+
+Starting campaign: 23 at time:  21.1186  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 21.2019 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9915 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  True 
+
+
+Cleaning the material
+
+Edge transition: 
+Moving total from melter to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 21.6809 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9946 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving total from key_measurement_point_3 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Repairing melter
+
+Edge transition: 
+Moving recycled batch from recycle_storage to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 21.9933 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9900 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_3 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 22.5348 (d) 
+True quantity 19.5154 (kg) 
+Measured quantity 19.7461 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+23 cycle completed
+
+
+Starting campaign: 24 at time:  22.8056  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 22.8889 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9849 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 23.4304 (d) 
+True quantity 19.8596 (kg) 
+Measured quantity 19.7328 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+24 cycle completed
+
+
+Starting campaign: 25 at time:  23.7011  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 23.7844 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9946 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 24.3259 (d) 
+True quantity 19.8526 (kg) 
+Measured quantity 19.7528 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+25 cycle completed
+
+
+Starting campaign: 26 at time:  24.5967  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 24.6800 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0173 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 25.2215 (d) 
+True quantity 19.7250 (kg) 
+Measured quantity 19.7328 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+26 cycle completed
+
+
+Starting campaign: 27 at time:  25.4923  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 25.5756 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9835 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  True 
+
+
+Cleaning the material
+
+Edge transition: 
+Moving total from melter to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 26.0546 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9854 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving total from key_measurement_point_3 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Repairing melter
+
+Edge transition: 
+Moving recycled batch from recycle_storage to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 26.3670 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9955 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_3 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 26.9085 (d) 
+True quantity 19.8968 (kg) 
+Measured quantity 19.7412 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+27 cycle completed
+
+
+Starting campaign: 28 at time:  27.1792  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 27.2625 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0170 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 27.8040 (d) 
+True quantity 19.7153 (kg) 
+Measured quantity 19.7337 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+28 cycle completed
+
+
+Starting campaign: 29 at time:  28.0748  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 28.1581 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9984 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 28.6996 (d) 
+True quantity 19.6108 (kg) 
+Measured quantity 19.7393 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+29 cycle completed
+
+
+Starting campaign: 30 at time:  28.9704  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 29.0537 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9877 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 29.5952 (d) 
+True quantity 19.6049 (kg) 
+Measured quantity 19.7349 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+30 cycle completed
+
+
+Starting campaign: 31 at time:  29.8659  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 29.9492 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0111 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 30.4907 (d) 
+True quantity 19.6337 (kg) 
+Measured quantity 19.7642 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+31 cycle completed
+
+
+Starting campaign: 32 at time:  30.7615  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 30.8448 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0006 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 31.3863 (d) 
+True quantity 19.7267 (kg) 
+Measured quantity 19.7262 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+32 cycle completed
+
+
+Starting campaign: 33 at time:  31.6571  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 31.7404 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0141 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  True 
+
+
+Cleaning the material
+
+Edge transition: 
+Moving total from melter to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 32.2194 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0077 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving total from key_measurement_point_3 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Repairing melter
+
+Edge transition: 
+Moving recycled batch from recycle_storage to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 32.5318 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9906 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_3 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 33.0733 (d) 
+True quantity 19.5585 (kg) 
+Measured quantity 19.7393 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+33 cycle completed
+
+
+Starting campaign: 34 at time:  33.3440  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 33.4273 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9821 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 33.9688 (d) 
+True quantity 19.7309 (kg) 
+Measured quantity 19.7549 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+34 cycle completed
+
+
+Starting campaign: 35 at time:  34.2396  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 34.3229 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9941 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 34.8644 (d) 
+True quantity 19.8220 (kg) 
+Measured quantity 19.7478 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+35 cycle completed
+
+
+Starting campaign: 36 at time:  35.1352  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 35.2185 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0130 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 35.7600 (d) 
+True quantity 19.7929 (kg) 
+Measured quantity 19.7465 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+36 cycle completed
+
+
+Starting campaign: 37 at time:  36.0307  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 36.1140 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0160 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 36.6555 (d) 
+True quantity 19.6262 (kg) 
+Measured quantity 19.7358 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+37 cycle completed
+
+
+Starting campaign: 38 at time:  36.9263  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 37.0096 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9753 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 37.5511 (d) 
+True quantity 19.7236 (kg) 
+Measured quantity 19.7671 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+38 cycle completed
+
+
+Starting campaign: 39 at time:  37.8219  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 37.9052 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0093 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 38.4467 (d) 
+True quantity 19.6881 (kg) 
+Measured quantity 19.7144 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+39 cycle completed
+
+
+Starting campaign: 40 at time:  38.7174  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 38.8007 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9782 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 39.3422 (d) 
+True quantity 19.6047 (kg) 
+Measured quantity 19.7821 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+40 cycle completed
+
+
+Starting campaign: 41 at time:  39.6130  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 39.6963 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0059 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 40.2378 (d) 
+True quantity 19.6526 (kg) 
+Measured quantity 19.7314 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+41 cycle completed
+
+
+Starting campaign: 42 at time:  40.5086  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 40.5919 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9932 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 41.1334 (d) 
+True quantity 19.7029 (kg) 
+Measured quantity 19.7588 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+42 cycle completed
+
+
+Starting campaign: 43 at time:  41.4041  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 41.4874 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0114 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 42.0289 (d) 
+True quantity 19.6895 (kg) 
+Measured quantity 19.7726 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+43 cycle completed
+
+
+Starting campaign: 44 at time:  42.2997  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 42.3830 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9970 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 42.9245 (d) 
+True quantity 19.5951 (kg) 
+Measured quantity 19.7451 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+44 cycle completed
+
+
+Starting campaign: 45 at time:  43.1953  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 43.2786 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0026 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 43.8201 (d) 
+True quantity 19.6988 (kg) 
+Measured quantity 19.7449 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+45 cycle completed
+
+
+Starting campaign: 46 at time:  44.0908  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 44.1741 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0272 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  True 
+
+
+Cleaning the material
+
+Edge transition: 
+Moving total from melter to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 44.6531 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0086 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving total from key_measurement_point_3 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Repairing melter
+
+Edge transition: 
+Moving recycled batch from recycle_storage to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 44.9655 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9830 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_3 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 45.5070 (d) 
+True quantity 19.7174 (kg) 
+Measured quantity 19.7581 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+46 cycle completed
+
+
+Starting campaign: 47 at time:  45.7778  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 45.8611 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9968 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 46.4026 (d) 
+True quantity 19.6474 (kg) 
+Measured quantity 19.7503 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+47 cycle completed
+
+
+Starting campaign: 48 at time:  46.6734  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 46.7567 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0146 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 47.2982 (d) 
+True quantity 19.7295 (kg) 
+Measured quantity 19.7498 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+48 cycle completed
+
+
+Starting campaign: 49 at time:  47.5689  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 47.6522 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0117 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 48.1937 (d) 
+True quantity 19.8957 (kg) 
+Measured quantity 19.7480 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+49 cycle completed
+
+
+Starting campaign: 50 at time:  48.4645  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 48.5478 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0211 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 49.0893 (d) 
+True quantity 19.9137 (kg) 
+Measured quantity 19.7626 (kg) 
+
+
+
+Inspecting key_measurement_point_2: 
+Threshold: 0.1677 
+Measured quantity 19.7626 
+
+MISSING SNM DETECTED in key_measurement_point_2!  A BATCH WILL GET MOVED IMMEDIATELY TO RECYCLE STORAGE!
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Starting campaign: 51 at time:  49.1934  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 49.2767 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9539 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 49.8182 (d) 
+True quantity 19.7303 (kg) 
+Measured quantity 19.7317 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+51 cycle completed
+
+
+Starting campaign: 52 at time:  50.0890  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 50.1723 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0017 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 50.7138 (d) 
+True quantity 19.9260 (kg) 
+Measured quantity 19.7499 (kg) 
+
+
+
+Inspecting key_measurement_point_2: 
+Threshold: 0.1677 
+Measured quantity 19.7499 
+
+MISSING SNM DETECTED in key_measurement_point_2!  A BATCH WILL GET MOVED IMMEDIATELY TO RECYCLE STORAGE!
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Starting campaign: 53 at time:  50.8179  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 50.9012 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9757 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 51.4427 (d) 
+True quantity 19.7330 (kg) 
+Measured quantity 19.7591 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+53 cycle completed
+
+
+Starting campaign: 54 at time:  51.7134  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 51.7967 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9952 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 52.3382 (d) 
+True quantity 19.7303 (kg) 
+Measured quantity 19.7498 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+54 cycle completed
+
+
+Starting campaign: 55 at time:  52.6090  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 52.6923 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0075 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 53.2338 (d) 
+True quantity 19.9608 (kg) 
+Measured quantity 19.7684 (kg) 
+
+
+
+Inspecting key_measurement_point_2: 
+Threshold: 0.1677 
+Measured quantity 19.7684 
+
+MISSING SNM DETECTED in key_measurement_point_2!  A BATCH WILL GET MOVED IMMEDIATELY TO RECYCLE STORAGE!
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Starting campaign: 56 at time:  53.3379  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 53.4212 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9945 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 53.9627 (d) 
+True quantity 19.6950 (kg) 
+Measured quantity 19.7535 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+56 cycle completed
+
+
+Starting campaign: 57 at time:  54.2335  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 54.3168 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0090 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 54.8583 (d) 
+True quantity 19.7542 (kg) 
+Measured quantity 19.7505 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+57 cycle completed
+
+
+Starting campaign: 58 at time:  55.1291  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 55.2124 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0188 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 55.7539 (d) 
+True quantity 20.0010 (kg) 
+Measured quantity 19.7565 (kg) 
+
+
+
+Inspecting key_measurement_point_2: 
+Threshold: 0.1677 
+Measured quantity 19.7565 
+
+MISSING SNM DETECTED in key_measurement_point_2!  A BATCH WILL GET MOVED IMMEDIATELY TO RECYCLE STORAGE!
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Starting campaign: 59 at time:  55.8580  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 55.9413 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0030 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 56.4828 (d) 
+True quantity 19.6508 (kg) 
+Measured quantity 19.7647 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+59 cycle completed
+
+
+Starting campaign: 60 at time:  56.7535  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 56.8368 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0037 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  True 
+
+
+Cleaning the material
+
+Edge transition: 
+Moving total from melter to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 57.3158 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9766 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving total from key_measurement_point_3 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Repairing melter
+
+Edge transition: 
+Moving recycled batch from recycle_storage to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 57.6282 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9766 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_3 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 58.1697 (d) 
+True quantity 19.7760 (kg) 
+Measured quantity 19.7651 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+60 cycle completed
+
+
+Starting campaign: 61 at time:  58.4405  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 58.5238 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9908 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 59.0653 (d) 
+True quantity 19.8089 (kg) 
+Measured quantity 19.7515 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+61 cycle completed
+
+
+Starting campaign: 62 at time:  59.3361  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 59.4194 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9709 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 59.9609 (d) 
+True quantity 19.7365 (kg) 
+Measured quantity 19.7472 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+62 cycle completed
+
+
+Starting campaign: 63 at time:  60.2316  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 60.3149 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9831 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 60.8564 (d) 
+True quantity 19.6148 (kg) 
+Measured quantity 19.7615 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+63 cycle completed
+
+
+Starting campaign: 64 at time:  61.1272  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 61.2105 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0179 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 61.7520 (d) 
+True quantity 19.6095 (kg) 
+Measured quantity 19.7529 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+64 cycle completed
+
+
+Starting campaign: 65 at time:  62.0228  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 62.1061 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0099 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 62.6476 (d) 
+True quantity 19.8453 (kg) 
+Measured quantity 19.7322 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+65 cycle completed
+
+
+Starting campaign: 66 at time:  62.9183  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 63.0016 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9878 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 63.5431 (d) 
+True quantity 19.5845 (kg) 
+Measured quantity 19.7449 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+66 cycle completed
+
+
+Starting campaign: 67 at time:  63.8139  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 63.8972 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0088 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  True 
+
+
+Cleaning the material
+
+Edge transition: 
+Moving total from melter to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 64.3762 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0261 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving total from key_measurement_point_3 to recycle_storage 
+
+Recycling batch and heel
+
+
+Storing recycled batch in recycle storage 
+
+
+Repairing melter
+
+Edge transition: 
+Moving recycled batch from recycle_storage to key_measurement_point_3 
+
+Measurement event at KMP: 3
+Operation time 64.6886 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0085 (kg) 
+
+
+No missing SNM has found, however, the melter failed. The material will be passed to the recycle storage.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_3 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 65.2301 (d) 
+True quantity 19.8551 (kg) 
+Measured quantity 19.7442 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+67 cycle completed
+
+
+Starting campaign: 68 at time:  65.5009  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 65.5842 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0055 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 66.1257 (d) 
+True quantity 19.6958 (kg) 
+Measured quantity 19.7449 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+68 cycle completed
+
+
+Starting campaign: 69 at time:  66.3964  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 66.4797 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9843 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 67.0212 (d) 
+True quantity 19.7281 (kg) 
+Measured quantity 19.7676 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+69 cycle completed
+
+
+Starting campaign: 70 at time:  67.2920  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 67.3753 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 19.9990 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 67.9168 (d) 
+True quantity 19.5092 (kg) 
+Measured quantity 19.7543 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+70 cycle completed
+
+
+Starting campaign: 71 at time:  68.1876  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 68.2709 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0022 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 68.8124 (d) 
+True quantity 19.8907 (kg) 
+Measured quantity 19.7656 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+71 cycle completed
+
+
+Starting campaign: 72 at time:  69.0831  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 69.1664 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0047 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 69.7079 (d) 
+True quantity 19.8261 (kg) 
+Measured quantity 19.7547 (kg) 
+
+
+Keep going! The material can be passed to the next point.
+
+
+Edge transition: 
+Moving batch from key_measurement_point_2 to product_storage 
+
+Processing the final product 
+
+
+72 cycle completed
+
+
+Starting campaign: 73 at time:  69.9787  days 
+
+Prepare batch in Storage Buffer for transfer: 20.0 kg 
+
+
+Edge transition: 
+Moving batch from storage_buffer to key_measurement_point_0 
+
+Measurement event at KMP: 0
+Operation time 70.0620 (d) 
+True quantity 20.0000 (kg) 
+Measured quantity 20.0311 (kg) 
+
+
+Edge transition: 
+Moving batch from key_measurement_point_0 to melter 
+
+Alloy melting
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from melter to trimmer 
+
+Slug trimming
+Failure status:  False 
+
+
+Edge transition: 
+Moving batch from trimmer to key_measurement_point_2 
+
+Measurement event at KMP: 2
+Operation time 70.6035 (d) 
+True quantity 19.7811 (kg) 
+Measured quantity 19.
