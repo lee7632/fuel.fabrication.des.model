@@ -12,8 +12,8 @@
 #
 ########################################################################
 
-root_dir = "C:/Users/jlee/Desktop/Research/Model/fuel.fabrication/model.update"
-simulation_dir = "C:/Users/jlee/Desktop/Research/Model/fuel.fabrication/model.update/simulation/test01"
+root_dir = "C:/Users/jlee/Desktop/Research/Model/fuel.fabrication.des.model/model.kmp1.included"
+simulation_dir = "C:/Users/jlee/Desktop/Research/Model/fuel.fabrication.des.model/model.kmp1.included/simulation/test"
 
 
 # root_dir: the directory path containg all associated files. 
